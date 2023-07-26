@@ -30,12 +30,14 @@
                     </li>
                 </ul>
             </div>
+            <!-- brand logo here -->
             <div class="logo">
                 <a href="#" class="flex items-center justify-center">
                     <img src="images/logo.png" class="h-10 mr-3" alt="Logo" />
                     <span class="self-center text-2xl text-white font-semibold whitespace-nowrap">Fruit Brust</span>
                 </a>
             </div>
+            <!-- searchbox here -->
             <div class="searchbox relative flex items-center justify-center">
                 <input type="" placeholder="Search" class="w-64 py-1.5 px-5 outline-none border border-gray-300 rounded-full focus:ring-2 ring-offset-2 ring-sky-500">
                 <svg class="absolute right-2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" width="16" height="16">
@@ -44,9 +46,11 @@
                 </svg>
             </div>
         </nav>
+
         <!-- navbar for Mobile and Tablets -->
         <nav class="bg-white border-gray-200 lg:hidden ">
             <div class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
+                <!-- brand logo here -->
             <a href="#" class="flex items-center">
                 <img src="images/logo.png" class="h-8 mr-3" alt="Logo" />
                 <span class="self-center text-2xl font-semibold whitespace-nowrap">Fruit Brust</span>
@@ -71,6 +75,7 @@
                 <li>
                     <a href="#" class="block py-2 pl-3 pr-4 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 ">All Fruits</a>
                 </li>
+                <!-- searchbox here -->
                 <li class="flex justify-center items-center relative w-52">
                     <input type="" placeholder="Search" class="w-52 py-1.5 px-5 outline-none border border-gray-300 rounded-full focus:ring-2 ring-offset-2 ring-sky-500">
                     <svg class="absolute right-2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" width="16" height="16">
@@ -86,11 +91,12 @@
     </header>
     <main class="max-w-6xl mx-auto">
         <section class="banner relative md:mt-5">
-            <div class="banner-texts text-center text-white absolute h-full w-full px-4 lg:px-0 md:pt-10 flex flex-col items-center justify-center md:justify-start space-y-2 md:space-y-5 rounded-lg">
+            <div class="banner-texts text-center text-white absolute h-full w-full px-4 lg:px-0 md:pt-10 flex flex-col items-center justify-center md:justify-start space-y-2 md:space-y-5 lg:space-y-10 rounded-lg">
                 <h1 class="text-2xl md:text-5xl lg:text-7xl font-bold z-40">Exotic Tastes at your <br> Doorstep</h1>
                 <p class="text-sm md:text-base lg:text-lg z-40">We supply highly quality organic products</p>
                 <button type="button" class="z-40 text-white bg-rose-500 focus:ring-4 focus:outline-none focus:ring-rose-300 shadow-lg shadow-rose-500/50  font-medium rounded-lg text-sm px-5 py-2.5 text-center mr-2 mb-2 ">Shop Now</button>
             </div>
+            <!-- Carousel here -->
             <div id="default-carousel" class="relative w-full h-full px-4 lg:px-0" data-carousel="slide">
                 <!-- Carousel wrapper -->
                 <div class="relative h-56 lg:h-[500px] overflow-hidden before:content-[''] before:absolute before:w-full before:h-full before:bg-black/60 before:z-30 rounded-lg md:h-96">
@@ -130,6 +136,7 @@
                 </button>
             </div>
             <div class="banner-fruits hidden md:flex flex-row items-center justify-center space-x-3 lg:space-x-5 w-5/6 max-w-5xl mx-auto py-6 bg-white rounded-lg shadow-xl relative -top-20 z-30">
+                <!-- images are here -->
                 <img src="images/fruit1.png" alt="" class="w-24 lg:w-36">
                 <img src="images/fruit2.png" alt="" class="w-24 lg:w-36">
                 <img src="images/fruit3.png" alt="" class="w-24 lg:w-36">
@@ -137,6 +144,303 @@
                 <img src="images/fruit5.png" alt="" class="w-24 lg:w-36">
             </div>
 
+        </section>
+        <section class="deals flex flex-col items-center justify-center mt-10 space-y-3 md:space-y-10">
+            <div class="text-contents w-full flex flex-col md:flex-row items-center justify-center md:justify-between md:px-3 lg:px-0">
+                <div class="description text-center md:text-left leading-relaxed space-y-2">
+                    <h3 class="text-xl md:text-3xl lg:text-5xl font-bold">Deal of the day</h3>
+                    <p class="w-72 md:w-96 lg:w-3/4 text-sm md:text-base  text-neutral-900/60 font-medium">Contrary to popular belief, is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old.</p>
+                </div>
+                <!-- countdown here -->
+                <div class="countdown flex items-center justify-between space-x-2 my-4 animate-pulse">
+                    <div class="days flex flex-col items-center justify-center space-y-1">
+                        <h4 class="text-3xl md:text-5xl font-extrabold">29</h4>
+                        <p class="text-[9.6px] md:text-base text-neutral-900/60">days</p>
+                    </div>
+                    <span class="text-base font-bold self-start pt-1.5">:</span>
+                    <div class="hours flex flex-col items-center justify-center space-y-1">
+                        <h4 class="text-3xl md:text-5xl font-extrabold">15</h4>
+                        <p class="text-[9.6px] md:text-base text-neutral-900/60">hours</p>
+                    </div>
+                    <span class="text-base font-bold self-start pt-1.5">:</span>
+                    <div class="minutes flex flex-col items-center justify-center space-y-1">
+                        <h4 class="text-3xl md:text-5xl font-extrabold">25</h4>
+                        <p class="text-[9.6px] md:text-base text-neutral-900/60">minutes</p>
+                    </div>
+                    <span class="text-base font-bold self-start pt-1.5">:</span>
+                    <div class="seconds flex flex-col items-center justify-center space-y-1">
+                        <h4 class="text-3xl md:text-5xl font-extrabold">08</h4>
+                        <p class="text-[9.6px] md:text-base text-neutral-900/60">seconds</p>
+                    </div>
+                </div>
+            </div>
+            <!-- products card container -->
+            <div class="products-container grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 items-center justify-center lg:justify-between gap-y-7 gap-x-7 w-full md:px-3 md:mx-auto lg:px-0">
+                <div class="product flex flex-col items-center justify-center py-4 space-y-7 md:space-y-3 border border-gray-300 rounded-md w-80 lg:w-auto mx-auto lg:mx-0">
+                    <img src="images/fruit6.png" alt="">
+                    <h4 class="text-2xl font-bold">12.90$ - 18.85$</h4>
+                    <hr class="w-3/5">
+                    <h1 class="text-neutral-900/60 text-base">Apples</h1>
+                    <!-- stars are here -->
+                    <div class="stars flex items-center space-x-1">
+                        <svg class="w-4 h-4 text-rose-500" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 22 20">
+                            <path d="M20.924 7.625a1.523 1.523 0 0 0-1.238-1.044l-5.051-.734-2.259-4.577a1.534 1.534 0 0 0-2.752 0L7.365 5.847l-5.051.734A1.535 1.535 0 0 0 1.463 9.2l3.656 3.563-.863 5.031a1.532 1.532 0 0 0 2.226 1.616L11 17.033l4.518 2.375a1.534 1.534 0 0 0 2.226-1.617l-.863-5.03L20.537 9.2a1.523 1.523 0 0 0 .387-1.575Z"/>
+                        </svg>
+                        <svg class="w-4 h-4 text-rose-500" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 22 20">
+                            <path d="M20.924 7.625a1.523 1.523 0 0 0-1.238-1.044l-5.051-.734-2.259-4.577a1.534 1.534 0 0 0-2.752 0L7.365 5.847l-5.051.734A1.535 1.535 0 0 0 1.463 9.2l3.656 3.563-.863 5.031a1.532 1.532 0 0 0 2.226 1.616L11 17.033l4.518 2.375a1.534 1.534 0 0 0 2.226-1.617l-.863-5.03L20.537 9.2a1.523 1.523 0 0 0 .387-1.575Z"/>
+                        </svg>
+                        <svg class="w-4 h-4 text-rose-500" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 22 20">
+                            <path d="M20.924 7.625a1.523 1.523 0 0 0-1.238-1.044l-5.051-.734-2.259-4.577a1.534 1.534 0 0 0-2.752 0L7.365 5.847l-5.051.734A1.535 1.535 0 0 0 1.463 9.2l3.656 3.563-.863 5.031a1.532 1.532 0 0 0 2.226 1.616L11 17.033l4.518 2.375a1.534 1.534 0 0 0 2.226-1.617l-.863-5.03L20.537 9.2a1.523 1.523 0 0 0 .387-1.575Z"/>
+                        </svg>
+                        <svg class="w-4 h-4 text-rose-500" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 22 20">
+                            <path d="M20.924 7.625a1.523 1.523 0 0 0-1.238-1.044l-5.051-.734-2.259-4.577a1.534 1.534 0 0 0-2.752 0L7.365 5.847l-5.051.734A1.535 1.535 0 0 0 1.463 9.2l3.656 3.563-.863 5.031a1.532 1.532 0 0 0 2.226 1.616L11 17.033l4.518 2.375a1.534 1.534 0 0 0 2.226-1.617l-.863-5.03L20.537 9.2a1.523 1.523 0 0 0 .387-1.575Z"/>
+                        </svg>
+                        <svg class="w-4 h-4 text-orange-200 dark:text-gray-500" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 22 20">
+                            <path d="M20.924 7.625a1.523 1.523 0 0 0-1.238-1.044l-5.051-.734-2.259-4.577a1.534 1.534 0 0 0-2.752 0L7.365 5.847l-5.051.734A1.535 1.535 0 0 0 1.463 9.2l3.656 3.563-.863 5.031a1.532 1.532 0 0 0 2.226 1.616L11 17.033l4.518 2.375a1.534 1.534 0 0 0 2.226-1.617l-.863-5.03L20.537 9.2a1.523 1.523 0 0 0 .387-1.575Z"/>
+                        </svg>
+                    </div>
+                    <!-- moda here -->
+                    
+                    <button data-modal-target="popup-modal-1" data-modal-toggle="popup-modal-1" class="text-lg font-bold text-rose-500" type="button">
+                        Details
+                    </button>
+                    
+                    <div id="popup-modal-1" tabindex="-1" class="fixed top-0 left-0 right-0 z-50 hidden p-4 overflow-x-hidden overflow-y-auto md:inset-0 h-[calc(100%-1rem)] max-h-full">
+                        <div class="relative w-full max-w-md max-h-full">
+                            <div class="relative bg-white rounded-lg shadow dark:bg-gray-700">                                
+                                <div class="p-6 text-center flex flex-col items-center justify-center space-y-7">
+                                    <img src="images/fruit6.png" alt="">
+                                    <h1 class="text-neutral-900/60 text-4xl font-bold">Apples</h1>
+                                    <p class="text-neutral-900/60">Professional employees are there for you to pick the most amazing and fresh fruits.</p>
+                                    <div class="stars flex items-center space-x-1">
+                                        <svg class="w-4 h-4 text-rose-500" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 22 20">
+                                            <path d="M20.924 7.625a1.523 1.523 0 0 0-1.238-1.044l-5.051-.734-2.259-4.577a1.534 1.534 0 0 0-2.752 0L7.365 5.847l-5.051.734A1.535 1.535 0 0 0 1.463 9.2l3.656 3.563-.863 5.031a1.532 1.532 0 0 0 2.226 1.616L11 17.033l4.518 2.375a1.534 1.534 0 0 0 2.226-1.617l-.863-5.03L20.537 9.2a1.523 1.523 0 0 0 .387-1.575Z"/>
+                                        </svg>
+                                        <svg class="w-4 h-4 text-rose-500" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 22 20">
+                                            <path d="M20.924 7.625a1.523 1.523 0 0 0-1.238-1.044l-5.051-.734-2.259-4.577a1.534 1.534 0 0 0-2.752 0L7.365 5.847l-5.051.734A1.535 1.535 0 0 0 1.463 9.2l3.656 3.563-.863 5.031a1.532 1.532 0 0 0 2.226 1.616L11 17.033l4.518 2.375a1.534 1.534 0 0 0 2.226-1.617l-.863-5.03L20.537 9.2a1.523 1.523 0 0 0 .387-1.575Z"/>
+                                        </svg>
+                                        <svg class="w-4 h-4 text-rose-500" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 22 20">
+                                            <path d="M20.924 7.625a1.523 1.523 0 0 0-1.238-1.044l-5.051-.734-2.259-4.577a1.534 1.534 0 0 0-2.752 0L7.365 5.847l-5.051.734A1.535 1.535 0 0 0 1.463 9.2l3.656 3.563-.863 5.031a1.532 1.532 0 0 0 2.226 1.616L11 17.033l4.518 2.375a1.534 1.534 0 0 0 2.226-1.617l-.863-5.03L20.537 9.2a1.523 1.523 0 0 0 .387-1.575Z"/>
+                                        </svg>
+                                        <svg class="w-4 h-4 text-rose-500" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 22 20">
+                                            <path d="M20.924 7.625a1.523 1.523 0 0 0-1.238-1.044l-5.051-.734-2.259-4.577a1.534 1.534 0 0 0-2.752 0L7.365 5.847l-5.051.734A1.535 1.535 0 0 0 1.463 9.2l3.656 3.563-.863 5.031a1.532 1.532 0 0 0 2.226 1.616L11 17.033l4.518 2.375a1.534 1.534 0 0 0 2.226-1.617l-.863-5.03L20.537 9.2a1.523 1.523 0 0 0 .387-1.575Z"/>
+                                        </svg>
+                                        <svg class="w-4 h-4 text-orange-200 dark:text-gray-500" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 22 20">
+                                            <path d="M20.924 7.625a1.523 1.523 0 0 0-1.238-1.044l-5.051-.734-2.259-4.577a1.534 1.534 0 0 0-2.752 0L7.365 5.847l-5.051.734A1.535 1.535 0 0 0 1.463 9.2l3.656 3.563-.863 5.031a1.532 1.532 0 0 0 2.226 1.616L11 17.033l4.518 2.375a1.534 1.534 0 0 0 2.226-1.617l-.863-5.03L20.537 9.2a1.523 1.523 0 0 0 .387-1.575Z"/>
+                                        </svg>
+                                    </div>
+                                    <div class="modal-buttons flex items-center justify-center">
+                                        <button data-modal-hide="popup-modal-1" type="button" class="text-rose-500 hover:text-white border border-rose-500 hover:bg-rose-500 focus:ring-4 focus:outline-none focus:ring-red-300  font-medium rounded-lg text-sm inline-flex items-center px-5 py-2.5 text-center mr-2 transition duration-300">
+                                            Close
+                                        </button>
+                                        <button data-modal-hide="popup-modal-1" type="button" class="text-white bg-rose-500 hover:bg-rose-800 focus:ring-4 focus:outline-none focus:ring-rose-200 rounded-lg border border-gray-200 text-sm font-medium px-5 py-2.5 focus:z-10 transition duration-300">Buy Now</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+  
+
+                </div>
+                <div class="product flex flex-col items-center justify-center py-4 space-y-7 md:space-y-3 border border-gray-300 rounded-md w-80 lg:w-auto mx-auto lg:mx-0">
+                    <img src="images/fruit7.png" alt="">
+                    <h4 class="text-2xl font-bold">12.90$ - 18.85$</h4>
+                    <hr class="w-3/5">
+                    <h1 class="text-neutral-900/60 text-base">Orange</h1>
+                    <!-- stars are here -->
+                    <div class="stars flex items-center space-x-1">
+                        <svg class="w-4 h-4 text-rose-500" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 22 20">
+                            <path d="M20.924 7.625a1.523 1.523 0 0 0-1.238-1.044l-5.051-.734-2.259-4.577a1.534 1.534 0 0 0-2.752 0L7.365 5.847l-5.051.734A1.535 1.535 0 0 0 1.463 9.2l3.656 3.563-.863 5.031a1.532 1.532 0 0 0 2.226 1.616L11 17.033l4.518 2.375a1.534 1.534 0 0 0 2.226-1.617l-.863-5.03L20.537 9.2a1.523 1.523 0 0 0 .387-1.575Z"/>
+                        </svg>
+                        <svg class="w-4 h-4 text-rose-500" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 22 20">
+                            <path d="M20.924 7.625a1.523 1.523 0 0 0-1.238-1.044l-5.051-.734-2.259-4.577a1.534 1.534 0 0 0-2.752 0L7.365 5.847l-5.051.734A1.535 1.535 0 0 0 1.463 9.2l3.656 3.563-.863 5.031a1.532 1.532 0 0 0 2.226 1.616L11 17.033l4.518 2.375a1.534 1.534 0 0 0 2.226-1.617l-.863-5.03L20.537 9.2a1.523 1.523 0 0 0 .387-1.575Z"/>
+                        </svg>
+                        <svg class="w-4 h-4 text-rose-500" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 22 20">
+                            <path d="M20.924 7.625a1.523 1.523 0 0 0-1.238-1.044l-5.051-.734-2.259-4.577a1.534 1.534 0 0 0-2.752 0L7.365 5.847l-5.051.734A1.535 1.535 0 0 0 1.463 9.2l3.656 3.563-.863 5.031a1.532 1.532 0 0 0 2.226 1.616L11 17.033l4.518 2.375a1.534 1.534 0 0 0 2.226-1.617l-.863-5.03L20.537 9.2a1.523 1.523 0 0 0 .387-1.575Z"/>
+                        </svg>
+                        <svg class="w-4 h-4 text-rose-500" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 22 20">
+                            <path d="M20.924 7.625a1.523 1.523 0 0 0-1.238-1.044l-5.051-.734-2.259-4.577a1.534 1.534 0 0 0-2.752 0L7.365 5.847l-5.051.734A1.535 1.535 0 0 0 1.463 9.2l3.656 3.563-.863 5.031a1.532 1.532 0 0 0 2.226 1.616L11 17.033l4.518 2.375a1.534 1.534 0 0 0 2.226-1.617l-.863-5.03L20.537 9.2a1.523 1.523 0 0 0 .387-1.575Z"/>
+                        </svg>
+                        <svg class="w-4 h-4 text-orange-200 dark:text-gray-500" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 22 20">
+                            <path d="M20.924 7.625a1.523 1.523 0 0 0-1.238-1.044l-5.051-.734-2.259-4.577a1.534 1.534 0 0 0-2.752 0L7.365 5.847l-5.051.734A1.535 1.535 0 0 0 1.463 9.2l3.656 3.563-.863 5.031a1.532 1.532 0 0 0 2.226 1.616L11 17.033l4.518 2.375a1.534 1.534 0 0 0 2.226-1.617l-.863-5.03L20.537 9.2a1.523 1.523 0 0 0 .387-1.575Z"/>
+                        </svg>
+                    </div>
+                    <!-- modal here -->
+                    
+                    <button data-modal-target="popup-modal-2" data-modal-toggle="popup-modal-2" class="text-lg font-bold text-rose-500" type="button">
+                        Details
+                    </button>
+                    
+                    <div id="popup-modal-2" tabindex="-1" class="fixed top-0 left-0 right-0 z-50 hidden p-4 overflow-x-hidden overflow-y-auto md:inset-0 h-[calc(100%-1rem)] max-h-full">
+                        <div class="relative w-full max-w-md max-h-full">
+                            <div class="relative bg-white rounded-lg shadow dark:bg-gray-700">                                
+                                <div class="p-6 text-center flex flex-col items-center justify-center space-y-7">
+                                    <img src="images/fruit7.png" alt="">
+                                    <h1 class="text-neutral-900/60 text-4xl font-bold">Oranges</h1>
+                                    <p class="text-neutral-900/60">Professional employees are there for you to pick the most amazing and fresh fruits.</p>
+                                    <div class="stars flex items-center space-x-1">
+                                        <svg class="w-4 h-4 text-rose-500" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 22 20">
+                                            <path d="M20.924 7.625a1.523 1.523 0 0 0-1.238-1.044l-5.051-.734-2.259-4.577a1.534 1.534 0 0 0-2.752 0L7.365 5.847l-5.051.734A1.535 1.535 0 0 0 1.463 9.2l3.656 3.563-.863 5.031a1.532 1.532 0 0 0 2.226 1.616L11 17.033l4.518 2.375a1.534 1.534 0 0 0 2.226-1.617l-.863-5.03L20.537 9.2a1.523 1.523 0 0 0 .387-1.575Z"/>
+                                        </svg>
+                                        <svg class="w-4 h-4 text-rose-500" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 22 20">
+                                            <path d="M20.924 7.625a1.523 1.523 0 0 0-1.238-1.044l-5.051-.734-2.259-4.577a1.534 1.534 0 0 0-2.752 0L7.365 5.847l-5.051.734A1.535 1.535 0 0 0 1.463 9.2l3.656 3.563-.863 5.031a1.532 1.532 0 0 0 2.226 1.616L11 17.033l4.518 2.375a1.534 1.534 0 0 0 2.226-1.617l-.863-5.03L20.537 9.2a1.523 1.523 0 0 0 .387-1.575Z"/>
+                                        </svg>
+                                        <svg class="w-4 h-4 text-rose-500" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 22 20">
+                                            <path d="M20.924 7.625a1.523 1.523 0 0 0-1.238-1.044l-5.051-.734-2.259-4.577a1.534 1.534 0 0 0-2.752 0L7.365 5.847l-5.051.734A1.535 1.535 0 0 0 1.463 9.2l3.656 3.563-.863 5.031a1.532 1.532 0 0 0 2.226 1.616L11 17.033l4.518 2.375a1.534 1.534 0 0 0 2.226-1.617l-.863-5.03L20.537 9.2a1.523 1.523 0 0 0 .387-1.575Z"/>
+                                        </svg>
+                                        <svg class="w-4 h-4 text-rose-500" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 22 20">
+                                            <path d="M20.924 7.625a1.523 1.523 0 0 0-1.238-1.044l-5.051-.734-2.259-4.577a1.534 1.534 0 0 0-2.752 0L7.365 5.847l-5.051.734A1.535 1.535 0 0 0 1.463 9.2l3.656 3.563-.863 5.031a1.532 1.532 0 0 0 2.226 1.616L11 17.033l4.518 2.375a1.534 1.534 0 0 0 2.226-1.617l-.863-5.03L20.537 9.2a1.523 1.523 0 0 0 .387-1.575Z"/>
+                                        </svg>
+                                        <svg class="w-4 h-4 text-orange-200 dark:text-gray-500" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 22 20">
+                                            <path d="M20.924 7.625a1.523 1.523 0 0 0-1.238-1.044l-5.051-.734-2.259-4.577a1.534 1.534 0 0 0-2.752 0L7.365 5.847l-5.051.734A1.535 1.535 0 0 0 1.463 9.2l3.656 3.563-.863 5.031a1.532 1.532 0 0 0 2.226 1.616L11 17.033l4.518 2.375a1.534 1.534 0 0 0 2.226-1.617l-.863-5.03L20.537 9.2a1.523 1.523 0 0 0 .387-1.575Z"/>
+                                        </svg>
+                                    </div>
+                                    <div class="modal-buttons flex items-center justify-center">
+                                        <button data-modal-hide="popup-modal-2" type="button" class="text-rose-500 hover:text-white border border-rose-500 hover:bg-rose-500 focus:ring-4 focus:outline-none focus:ring-red-300  font-medium rounded-lg text-sm inline-flex items-center px-5 py-2.5 text-center mr-2 transition duration-300">
+                                            Close
+                                        </button>
+                                        <button data-modal-hide="popup-modal-2" type="button" class="text-white bg-rose-500 hover:bg-rose-800 focus:ring-4 focus:outline-none focus:ring-rose-200 rounded-lg border border-gray-200 text-sm font-medium px-5 py-2.5 transition duration-300 focus:z-10 ">Buy Now</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+  
+
+                </div>
+                <div class="product flex flex-col items-center justify-center py-4 space-y-7 md:space-y-3 border border-gray-300 rounded-md w-80 lg:w-auto mx-auto lg:mx-0">
+                    <img src="images/fruit8.png" alt="">
+                    <h4 class="text-2xl font-bold">12.90$ - 18.85$</h4>
+                    <hr class="w-3/5">
+                    <h1 class="text-neutral-900/60 text-base">Red Dragon</h1>
+                    <!-- stars are here -->
+                    <div class="stars flex items-center space-x-1">
+                        <svg class="w-4 h-4 text-rose-500" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 22 20">
+                            <path d="M20.924 7.625a1.523 1.523 0 0 0-1.238-1.044l-5.051-.734-2.259-4.577a1.534 1.534 0 0 0-2.752 0L7.365 5.847l-5.051.734A1.535 1.535 0 0 0 1.463 9.2l3.656 3.563-.863 5.031a1.532 1.532 0 0 0 2.226 1.616L11 17.033l4.518 2.375a1.534 1.534 0 0 0 2.226-1.617l-.863-5.03L20.537 9.2a1.523 1.523 0 0 0 .387-1.575Z"/>
+                        </svg>
+                        <svg class="w-4 h-4 text-rose-500" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 22 20">
+                            <path d="M20.924 7.625a1.523 1.523 0 0 0-1.238-1.044l-5.051-.734-2.259-4.577a1.534 1.534 0 0 0-2.752 0L7.365 5.847l-5.051.734A1.535 1.535 0 0 0 1.463 9.2l3.656 3.563-.863 5.031a1.532 1.532 0 0 0 2.226 1.616L11 17.033l4.518 2.375a1.534 1.534 0 0 0 2.226-1.617l-.863-5.03L20.537 9.2a1.523 1.523 0 0 0 .387-1.575Z"/>
+                        </svg>
+                        <svg class="w-4 h-4 text-rose-500" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 22 20">
+                            <path d="M20.924 7.625a1.523 1.523 0 0 0-1.238-1.044l-5.051-.734-2.259-4.577a1.534 1.534 0 0 0-2.752 0L7.365 5.847l-5.051.734A1.535 1.535 0 0 0 1.463 9.2l3.656 3.563-.863 5.031a1.532 1.532 0 0 0 2.226 1.616L11 17.033l4.518 2.375a1.534 1.534 0 0 0 2.226-1.617l-.863-5.03L20.537 9.2a1.523 1.523 0 0 0 .387-1.575Z"/>
+                        </svg>
+                        <svg class="w-4 h-4 text-rose-500" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 22 20">
+                            <path d="M20.924 7.625a1.523 1.523 0 0 0-1.238-1.044l-5.051-.734-2.259-4.577a1.534 1.534 0 0 0-2.752 0L7.365 5.847l-5.051.734A1.535 1.535 0 0 0 1.463 9.2l3.656 3.563-.863 5.031a1.532 1.532 0 0 0 2.226 1.616L11 17.033l4.518 2.375a1.534 1.534 0 0 0 2.226-1.617l-.863-5.03L20.537 9.2a1.523 1.523 0 0 0 .387-1.575Z"/>
+                        </svg>
+                        <svg class="w-4 h-4 text-orange-200 dark:text-gray-500" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 22 20">
+                            <path d="M20.924 7.625a1.523 1.523 0 0 0-1.238-1.044l-5.051-.734-2.259-4.577a1.534 1.534 0 0 0-2.752 0L7.365 5.847l-5.051.734A1.535 1.535 0 0 0 1.463 9.2l3.656 3.563-.863 5.031a1.532 1.532 0 0 0 2.226 1.616L11 17.033l4.518 2.375a1.534 1.534 0 0 0 2.226-1.617l-.863-5.03L20.537 9.2a1.523 1.523 0 0 0 .387-1.575Z"/>
+                        </svg>
+                    </div>
+                    <!-- moda here -->
+                    
+                    <button data-modal-target="popup-modal-3" data-modal-toggle="popup-modal-3" class="text-lg font-bold text-rose-500" type="button">
+                        Details
+                    </button>
+                    
+                    <div id="popup-modal-3" tabindex="-1" class="fixed top-0 left-0 right-0 z-50 hidden p-4 overflow-x-hidden overflow-y-auto md:inset-0 h-[calc(100%-1rem)] max-h-full">
+                        <div class="relative w-full max-w-md max-h-full">
+                            <div class="relative bg-white rounded-lg shadow dark:bg-gray-700">                                
+                                <div class="p-6 text-center flex flex-col items-center justify-center space-y-7">
+                                    <img src="images/fruit8.png" alt="">
+                                    <h1 class="text-neutral-900/60 text-4xl font-bold">Red Dragon</h1>
+                                    <p class="text-neutral-900/60">Professional employees are there for you to pick the most amazing and fresh fruits.</p>
+                                    <div class="stars flex items-center space-x-1">
+                                        <svg class="w-4 h-4 text-rose-500" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 22 20">
+                                            <path d="M20.924 7.625a1.523 1.523 0 0 0-1.238-1.044l-5.051-.734-2.259-4.577a1.534 1.534 0 0 0-2.752 0L7.365 5.847l-5.051.734A1.535 1.535 0 0 0 1.463 9.2l3.656 3.563-.863 5.031a1.532 1.532 0 0 0 2.226 1.616L11 17.033l4.518 2.375a1.534 1.534 0 0 0 2.226-1.617l-.863-5.03L20.537 9.2a1.523 1.523 0 0 0 .387-1.575Z"/>
+                                        </svg>
+                                        <svg class="w-4 h-4 text-rose-500" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 22 20">
+                                            <path d="M20.924 7.625a1.523 1.523 0 0 0-1.238-1.044l-5.051-.734-2.259-4.577a1.534 1.534 0 0 0-2.752 0L7.365 5.847l-5.051.734A1.535 1.535 0 0 0 1.463 9.2l3.656 3.563-.863 5.031a1.532 1.532 0 0 0 2.226 1.616L11 17.033l4.518 2.375a1.534 1.534 0 0 0 2.226-1.617l-.863-5.03L20.537 9.2a1.523 1.523 0 0 0 .387-1.575Z"/>
+                                        </svg>
+                                        <svg class="w-4 h-4 text-rose-500" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 22 20">
+                                            <path d="M20.924 7.625a1.523 1.523 0 0 0-1.238-1.044l-5.051-.734-2.259-4.577a1.534 1.534 0 0 0-2.752 0L7.365 5.847l-5.051.734A1.535 1.535 0 0 0 1.463 9.2l3.656 3.563-.863 5.031a1.532 1.532 0 0 0 2.226 1.616L11 17.033l4.518 2.375a1.534 1.534 0 0 0 2.226-1.617l-.863-5.03L20.537 9.2a1.523 1.523 0 0 0 .387-1.575Z"/>
+                                        </svg>
+                                        <svg class="w-4 h-4 text-rose-500" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 22 20">
+                                            <path d="M20.924 7.625a1.523 1.523 0 0 0-1.238-1.044l-5.051-.734-2.259-4.577a1.534 1.534 0 0 0-2.752 0L7.365 5.847l-5.051.734A1.535 1.535 0 0 0 1.463 9.2l3.656 3.563-.863 5.031a1.532 1.532 0 0 0 2.226 1.616L11 17.033l4.518 2.375a1.534 1.534 0 0 0 2.226-1.617l-.863-5.03L20.537 9.2a1.523 1.523 0 0 0 .387-1.575Z"/>
+                                        </svg>
+                                        <svg class="w-4 h-4 text-orange-200 dark:text-gray-500" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 22 20">
+                                            <path d="M20.924 7.625a1.523 1.523 0 0 0-1.238-1.044l-5.051-.734-2.259-4.577a1.534 1.534 0 0 0-2.752 0L7.365 5.847l-5.051.734A1.535 1.535 0 0 0 1.463 9.2l3.656 3.563-.863 5.031a1.532 1.532 0 0 0 2.226 1.616L11 17.033l4.518 2.375a1.534 1.534 0 0 0 2.226-1.617l-.863-5.03L20.537 9.2a1.523 1.523 0 0 0 .387-1.575Z"/>
+                                        </svg>
+                                    </div>
+                                    <div class="modal-buttons flex items-center justify-center">
+                                        <button data-modal-hide="popup-modal-3" type="button" class="text-rose-500 hover:text-white border border-rose-500 hover:bg-rose-500 focus:ring-4 focus:outline-none focus:ring-red-300  font-medium rounded-lg text-sm inline-flex items-center px-5 py-2.5 text-center mr-2 transition duration-300">
+                                            Close
+                                        </button>
+                                        <button data-modal-hide="popup-modal-3" type="button" class="text-white bg-rose-500 hover:bg-rose-800 focus:ring-4 focus:outline-none focus:ring-rose-200 rounded-lg border border-gray-200 text-sm font-medium px-5 py-2.5 transition duration-300 focus:z-10 ">Buy Now</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+  
+
+                </div>
+                <div class="product flex flex-col items-center justify-center py-4 space-y-7 md:space-y-3 border border-gray-300 rounded-md w-80 lg:w-auto mx-auto lg:mx-0">
+                    <img src="images/fruit9.png" alt="">
+                    <h4 class="text-2xl font-bold">12.90$ - 18.85$</h4>
+                    <hr class="w-3/5">
+                    <h1 class="text-neutral-900/60 text-base">Banana</h1>
+                    <!-- stars are here -->
+                    <div class="stars flex items-center space-x-1">
+                        <svg class="w-4 h-4 text-rose-500" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 22 20">
+                            <path d="M20.924 7.625a1.523 1.523 0 0 0-1.238-1.044l-5.051-.734-2.259-4.577a1.534 1.534 0 0 0-2.752 0L7.365 5.847l-5.051.734A1.535 1.535 0 0 0 1.463 9.2l3.656 3.563-.863 5.031a1.532 1.532 0 0 0 2.226 1.616L11 17.033l4.518 2.375a1.534 1.534 0 0 0 2.226-1.617l-.863-5.03L20.537 9.2a1.523 1.523 0 0 0 .387-1.575Z"/>
+                        </svg>
+                        <svg class="w-4 h-4 text-rose-500" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 22 20">
+                            <path d="M20.924 7.625a1.523 1.523 0 0 0-1.238-1.044l-5.051-.734-2.259-4.577a1.534 1.534 0 0 0-2.752 0L7.365 5.847l-5.051.734A1.535 1.535 0 0 0 1.463 9.2l3.656 3.563-.863 5.031a1.532 1.532 0 0 0 2.226 1.616L11 17.033l4.518 2.375a1.534 1.534 0 0 0 2.226-1.617l-.863-5.03L20.537 9.2a1.523 1.523 0 0 0 .387-1.575Z"/>
+                        </svg>
+                        <svg class="w-4 h-4 text-rose-500" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 22 20">
+                            <path d="M20.924 7.625a1.523 1.523 0 0 0-1.238-1.044l-5.051-.734-2.259-4.577a1.534 1.534 0 0 0-2.752 0L7.365 5.847l-5.051.734A1.535 1.535 0 0 0 1.463 9.2l3.656 3.563-.863 5.031a1.532 1.532 0 0 0 2.226 1.616L11 17.033l4.518 2.375a1.534 1.534 0 0 0 2.226-1.617l-.863-5.03L20.537 9.2a1.523 1.523 0 0 0 .387-1.575Z"/>
+                        </svg>
+                        <svg class="w-4 h-4 text-rose-500" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 22 20">
+                            <path d="M20.924 7.625a1.523 1.523 0 0 0-1.238-1.044l-5.051-.734-2.259-4.577a1.534 1.534 0 0 0-2.752 0L7.365 5.847l-5.051.734A1.535 1.535 0 0 0 1.463 9.2l3.656 3.563-.863 5.031a1.532 1.532 0 0 0 2.226 1.616L11 17.033l4.518 2.375a1.534 1.534 0 0 0 2.226-1.617l-.863-5.03L20.537 9.2a1.523 1.523 0 0 0 .387-1.575Z"/>
+                        </svg>
+                        <svg class="w-4 h-4 text-orange-200 dark:text-gray-500" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 22 20">
+                            <path d="M20.924 7.625a1.523 1.523 0 0 0-1.238-1.044l-5.051-.734-2.259-4.577a1.534 1.534 0 0 0-2.752 0L7.365 5.847l-5.051.734A1.535 1.535 0 0 0 1.463 9.2l3.656 3.563-.863 5.031a1.532 1.532 0 0 0 2.226 1.616L11 17.033l4.518 2.375a1.534 1.534 0 0 0 2.226-1.617l-.863-5.03L20.537 9.2a1.523 1.523 0 0 0 .387-1.575Z"/>
+                        </svg>
+                    </div>
+                    <!-- modal here -->
+                    
+                    <button data-modal-target="popup-moda4" data-modal-toggle="popup-modal-4" class="text-lg font-bold text-rose-500" type="button">
+                        Details
+                    </button>
+                    
+                    <div id="popup-modal-4" tabindex="-1" class="fixed top-0 left-0 right-0 z-50 hidden p-4 overflow-x-hidden overflow-y-auto md:inset-0 h-[calc(100%-1rem)] max-h-full">
+                        <div class="relative w-full max-w-md max-h-full">
+                            <div class="relative bg-white rounded-lg shadow dark:bg-gray-700">                                
+                                <div class="p-6 text-center flex flex-col items-center justify-center space-y-7">
+                                    <img src="images/fruit9.png" alt="">
+                                    <h1 class="text-neutral-900/60 text-4xl font-bold">Apples</h1>
+                                    <p class="text-neutral-900/60">Professional employees are there for you to pick the most amazing and fresh fruits.</p>
+                                    <div class="stars flex items-center space-x-1">
+                                        <svg class="w-4 h-4 text-rose-500" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 22 20">
+                                            <path d="M20.924 7.625a1.523 1.523 0 0 0-1.238-1.044l-5.051-.734-2.259-4.577a1.534 1.534 0 0 0-2.752 0L7.365 5.847l-5.051.734A1.535 1.535 0 0 0 1.463 9.2l3.656 3.563-.863 5.031a1.532 1.532 0 0 0 2.226 1.616L11 17.033l4.518 2.375a1.534 1.534 0 0 0 2.226-1.617l-.863-5.03L20.537 9.2a1.523 1.523 0 0 0 .387-1.575Z"/>
+                                        </svg>
+                                        <svg class="w-4 h-4 text-rose-500" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 22 20">
+                                            <path d="M20.924 7.625a1.523 1.523 0 0 0-1.238-1.044l-5.051-.734-2.259-4.577a1.534 1.534 0 0 0-2.752 0L7.365 5.847l-5.051.734A1.535 1.535 0 0 0 1.463 9.2l3.656 3.563-.863 5.031a1.532 1.532 0 0 0 2.226 1.616L11 17.033l4.518 2.375a1.534 1.534 0 0 0 2.226-1.617l-.863-5.03L20.537 9.2a1.523 1.523 0 0 0 .387-1.575Z"/>
+                                        </svg>
+                                        <svg class="w-4 h-4 text-rose-500" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 22 20">
+                                            <path d="M20.924 7.625a1.523 1.523 0 0 0-1.238-1.044l-5.051-.734-2.259-4.577a1.534 1.534 0 0 0-2.752 0L7.365 5.847l-5.051.734A1.535 1.535 0 0 0 1.463 9.2l3.656 3.563-.863 5.031a1.532 1.532 0 0 0 2.226 1.616L11 17.033l4.518 2.375a1.534 1.534 0 0 0 2.226-1.617l-.863-5.03L20.537 9.2a1.523 1.523 0 0 0 .387-1.575Z"/>
+                                        </svg>
+                                        <svg class="w-4 h-4 text-rose-500" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 22 20">
+                                            <path d="M20.924 7.625a1.523 1.523 0 0 0-1.238-1.044l-5.051-.734-2.259-4.577a1.534 1.534 0 0 0-2.752 0L7.365 5.847l-5.051.734A1.535 1.535 0 0 0 1.463 9.2l3.656 3.563-.863 5.031a1.532 1.532 0 0 0 2.226 1.616L11 17.033l4.518 2.375a1.534 1.534 0 0 0 2.226-1.617l-.863-5.03L20.537 9.2a1.523 1.523 0 0 0 .387-1.575Z"/>
+                                        </svg>
+                                        <svg class="w-4 h-4 text-orange-200 dark:text-gray-500" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 22 20">
+                                            <path d="M20.924 7.625a1.523 1.523 0 0 0-1.238-1.044l-5.051-.734-2.259-4.577a1.534 1.534 0 0 0-2.752 0L7.365 5.847l-5.051.734A1.535 1.535 0 0 0 1.463 9.2l3.656 3.563-.863 5.031a1.532 1.532 0 0 0 2.226 1.616L11 17.033l4.518 2.375a1.534 1.534 0 0 0 2.226-1.617l-.863-5.03L20.537 9.2a1.523 1.523 0 0 0 .387-1.575Z"/>
+                                        </svg>
+                                    </div>
+                                    <div class="modal-buttons flex items-center justify-center">
+                                        <button data-modal-hide="popup-modal-4" type="button" class="text-rose-500 hover:text-white border border-rose-500 hover:bg-rose-500 focus:ring-4 focus:outline-none focus:ring-red-300  font-medium rounded-lg text-sm inline-flex items-center px-5 py-2.5 text-center mr-2 transition duration-300">
+                                            Close
+                                        </button>
+                                        <button data-modal-hide="popup-modal-4" type="button" class="text-white bg-rose-500 hover:bg-rose-800 focus:ring-4 focus:outline-none focus:ring-rose-200 rounded-lg border border-gray-200 text-sm font-medium px-5 py-2.5 transition duration-300 focus:z-10 ">Buy Now</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+  
+
+                </div>
+            </div>
         </section>
     </main>
       <script src="flowbite.js"></script>
