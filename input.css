@@ -2,6 +2,6 @@
 @tailwind components;
 @tailwind utilities;
 
-.font-ubuntu{
-    font-family: 'Ubuntu', sans-serif;
+.font-roboto{
+    font-family: 'Roboto', sans-serif;
 }
